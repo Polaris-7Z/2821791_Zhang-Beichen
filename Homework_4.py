@@ -1,3 +1,4 @@
+# quadraticFormula1(a,b,c) quadraticFormula2(a,b,c)
 a=int(input("a="))
 b=int(input("b="))
 c=int(input("c="))
@@ -11,3 +12,5 @@ def quadratic2(a,b,c):
 print("Quadratic1 is", quadratic1(a,b,c))
 
 print("Quadratic2 is", quadratic2(a,b,c))
+
+quit()
