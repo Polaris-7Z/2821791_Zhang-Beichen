@@ -1,10 +1,7 @@
 import math
 def rootfactorial(x):
-    try:
-        x = int(x)
-    except:
-        raise TypeError("x is not and integer")
-
+    if not type(x) == int:
+        raise TypeError("input is not an integer")
     if x < 0:
         raise ValueError("x is not positive")
     if x > 20:
