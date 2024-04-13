@@ -11,7 +11,7 @@ while True:  # Asks for integers
 
 length = int(len(numbers) / 2)  # Calculate the length of the list
 
-if len(numbers) % 2 == 0:  # The even list
+if length % 2 == 0:  # The even list
     print("Median: ",  (numbers[length-1] + numbers[length]) / 2)
 else:  # The odd list
     print("Median: ", numbers[length])
