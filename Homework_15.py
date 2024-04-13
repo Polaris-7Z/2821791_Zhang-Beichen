@@ -9,11 +9,11 @@ while True:  # Asks for integers
     else:
         numbers.append(int(x))  # Add the number(integer) into the list
 
-length = int(len(numbers) / 2)  # Calculate the length of the list
+HL = int(len(numbers) / 2)  # Calculate half the length of the list
 
-if length % 2 == 0:  # The even list
-    print("Median: ",  (numbers[length-1] + numbers[length]) / 2)
+if len(numbers) % 2 == 0:  # The even list
+    print("Median: ",  (numbers[HL-1] + numbers[HL]) / 2)
 else:  # The odd list
-    print("Median: ", numbers[length])
+    print("Median: ", numbers[HL])
 
 quit()
